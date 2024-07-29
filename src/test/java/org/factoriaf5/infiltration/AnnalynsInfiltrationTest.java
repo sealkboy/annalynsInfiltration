@@ -248,7 +248,7 @@ public class AnnalynsInfiltrationTest {
         boolean archerIsAwake = true;
         boolean prisonerIsAwake = true;
         boolean petDogIsPresent = false;
-        assertThat(AnnalynsInfiltration.canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent), is(true));
+        assertThat(AnnalynsInfiltration.canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent), is(false));
     }
 
     @Test
